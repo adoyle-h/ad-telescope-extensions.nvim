@@ -1,6 +1,7 @@
 return function(opts)
 	return {
-		command = 'List messages',
+		desc = 'List messages',
+		command = 'messages',
 		picker = { --
 			sorting_strategy = 'ascending',
 			default_selection_index = -1,
