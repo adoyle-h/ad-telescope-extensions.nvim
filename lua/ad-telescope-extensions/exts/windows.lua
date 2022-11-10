@@ -52,7 +52,11 @@ return function(opts)
 				local lastWinItem = winItems[#winItems]
 				lastWinItem.text = lastPrefix .. lastWinItem.entry.path
 
-				items[#items + 1] = { text = opts.tab({ tab = tab, wins = wins, tabs = tabs }), tab = tab }
+				items[#items + 1] = {
+					text = opts.tab({ tab = tab, wins = wins, tabs = tabs }),
+					tab = tab,
+					entry = { path = '' },
+				}
 				for _, item in pairs(winItems) do items[#items + 1] = item end
 			end
 
