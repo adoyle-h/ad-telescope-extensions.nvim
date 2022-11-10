@@ -42,15 +42,30 @@ require('ad-telescope-extensions').setup {
 }
 ```
 
+### Options
+
 You can pass opts to each extension.
 
 ```lua
 require('ad-telescope-extensions').setup {
   enable = 'all', -- 'all' or { 'extension-name' }
-  env = { -- opts for "env" extension
-    highlights = { --
-      ADTelExt_env_key = { fg = '#93B11A' },
-    },
+  env = {
+    opts = { -- opts for "env" extension
+      highlights = { --
+        ADTelExt_env_key = { fg = '#93B11A' },
+      },
+    }
+  }
+}
+```
+
+### Alias
+
+```lua
+require('ad-telescope-extensions').setup {
+  enable = 'all',
+  floaterm = {
+    alias = 'terminals' -- `:Telescope terminals` is available. `:Telescope floaterm` is unavailable.
   }
 }
 ```

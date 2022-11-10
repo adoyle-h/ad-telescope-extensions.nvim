@@ -16,8 +16,9 @@ function M.setup(opts)
 	end
 
 	for _, name in pairs(enable) do
-		local ext = require('ad-telescope-extensions.exts.' .. name)(opts[name] or {})
-		ext.name = name
+		local extProps = opts[name] or {}
+		local ext = require('ad-telescope-extensions.exts.' .. name)(extProps.opts or {})
+		ext.name = extProps.alias or name
 		maker.register(ext)
 	end
 end
