@@ -93,6 +93,14 @@ List environment variables.
 
 ![env.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/env.png)
 
+### floaterm
+
+List [floaterm](https://github.com/voldikss/vim-floaterm). Press `<CR>` to toggle terminal window.
+
+Item Format: `[<bufnr>:<floaterm-name>]: <buf-name>`
+
+![floaterm.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/floaterm.png)
+
 ### message
 
 List messages.
@@ -142,6 +150,8 @@ Any suggestions and contributions are always welcome. Please open an [issue][] t
 If you want to submit a new feature, please open an [issue][] for feature request to talk about your design.
 
 If you want to submit a bug fix, search related issues first, and then open a Pull Requst.
+
+The git commit message must follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Versions
 

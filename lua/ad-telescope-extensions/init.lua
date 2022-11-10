@@ -9,7 +9,7 @@ function M.setup(opts)
 	if enable == 'all' then
 		enable = {
 			-- LuaFormatter off
-			'changes', 'colors', 'env', 'message', 'packpath', 'query', 'rtp',
+			'changes', 'colors', 'env', 'floaterm', 'message', 'packpath', 'query', 'rtp',
 			'scriptnames', 'windows', 'time',
 			-- LuaFormatter on
 		}
