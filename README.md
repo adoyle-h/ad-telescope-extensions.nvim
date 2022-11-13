@@ -143,6 +143,12 @@ Show tabpages and windows. Press `<CR>` to goto the tabpage or window you choose
 
 ![windows.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/windows.png)
 
+### zk
+
+List zk notes. Depends on [zk-nvim](https://github.com/mickael-menu/zk-nvim).
+
+![zk.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/zk.png)
+
 ## Suggestion, Bug Reporting, Contributing
 
 Any suggestions and contributions are always welcome. Please open an [issue][] to contact with me.

@@ -10,7 +10,7 @@ function M.setup(opts)
 		enable = {
 			-- LuaFormatter off
 			'changes', 'colors', 'env', 'floaterm', 'message', 'packpath', 'query', 'rtp',
-			'scriptnames', 'windows', 'time',
+			'scriptnames', 'windows', 'time', 'zk',
 			-- LuaFormatter on
 		}
 	end
