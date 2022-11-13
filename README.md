@@ -72,7 +72,7 @@ require('ad-telescope-extensions').setup {
 
 ## Extensions
 
-See [./lua/exts/](./lua/exts/)
+See [./lua/ad-telescope-extensions/exts/](./lua/ad-telescope-extensions/exts)
 
 ### changes
 
