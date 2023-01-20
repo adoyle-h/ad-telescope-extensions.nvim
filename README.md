@@ -161,18 +161,7 @@ Lists LSP document symbols with selected symbol kinds in the current buffer. See
 
 ## Suggestion, Bug Reporting, Contributing
 
-Any suggestions and contributions are always welcome. Please open an [issue][] to contact with me.
-
-If you want to submit a new feature, please open an [issue][] for feature request to talk about your design.
-
-If you want to submit a bug fix, search related issues first, and then open a Pull Requst.
-
-The git commit message must follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
-
-## Versions
-
-See [tags][].
-The versions follows the rules of [SemVer 2.0.0](http://semver.org/).
+Please read [./docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md) before opening new Issue/Discussion/PR and posting any comments.
 
 ## Copyright and License
 
