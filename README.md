@@ -149,6 +149,16 @@ List zk notes. Depends on [zk-nvim](https://github.com/mickael-menu/zk-nvim).
 
 ![zk.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/zk.png)
 
+### lsp_document_symbols_filter
+
+Lists LSP document symbols with selected symbol kinds in the current buffer. See `:h telescope.builtin.lsp_document_symbols()`.
+
+![lsp_document_symbols_filter.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/lsp_document_symbols_filter.png)
+
+![lsp_document_symbols.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/lsp_document_symbols.png)
+
+`lsp_workspace_symbols_filter`, `lsp_dynamic_workspace_symbols_filter` pickers are also supported.
+
 ## Suggestion, Bug Reporting, Contributing
 
 Any suggestions and contributions are always welcome. Please open an [issue][] to contact with me.

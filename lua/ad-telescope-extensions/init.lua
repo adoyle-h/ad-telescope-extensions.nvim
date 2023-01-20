@@ -11,6 +11,7 @@ function M.setup(opts)
 			-- LuaFormatter off
 			'changes', 'colors', 'env', 'floaterm', 'message', 'packpath', 'query', 'rtp',
 			'scriptnames', 'windows', 'time', 'zk',
+			'lsp_document_symbols_filter', 'lsp_workspace_symbols_filter', 'lsp_dynamic_workspace_symbols_filter',
 			-- LuaFormatter on
 		}
 	end
