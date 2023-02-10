@@ -174,7 +174,9 @@ See the [NOTICE][] file distributed with this work for additional information re
 
 ## Other Projects
 
-[Other lua projects](https://github.com/adoyle-h?tab=repositories&q=&type=source&language=lua&sort=stargazers) created by me.
+- [lsp-toggle](https://github.com/adoyle-h/lsp-toggle.nvim): Disable/Enable LSP clients and NullLS sources for buffers.
+- [one.nvim](https://github.com/adoyle-h/one.nvim): All-in-one neovim configuration framework implemented with Lua.
+- [Other lua projects](https://github.com/adoyle-h?tab=repositories&q=&type=source&language=lua&sort=stargazers) created by me.
 
 
 <!-- Links -->
