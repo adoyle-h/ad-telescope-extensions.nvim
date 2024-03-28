@@ -49,6 +49,8 @@ return function(opts)
 					::continue::
 				end
 
+				if #winItems == 0 then goto continue2 end
+
 				local lastWinItem = winItems[#winItems]
 				lastWinItem.text = lastPrefix .. lastWinItem.entry.path
 
@@ -58,9 +60,24 @@ return function(opts)
 					entry = { path = '' },
 				}
 				for _, item in pairs(winItems) do items[#items + 1] = item end
+
+				::continue2::
 			end
 
 			return items
+		end,
+
+		remap = function(map, ctx, prompt_bufnr)
+			map({ 'i', 'n' }, '<C-x>', function()
+				local item = ctx:getSelectedItem()
+
+				if item.win then
+					vim.api.nvim_win_close(item.win, false)
+				else
+					for _, win in pairs(getWins(item.tab)) do vim.api.nvim_win_close(win, false) end
+				end
+				ctx:refreshPicker(prompt_bufnr)
+			end)
 		end,
 
 		onSubmit = function(item)

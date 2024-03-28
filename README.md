@@ -139,7 +139,9 @@ Show current date and time
 
 ### windows
 
-Show tabpages and windows. Press `<CR>` to goto the tabpage or window you choosed.
+Show tabpages and windows.
+Press `<CR>` to goto the tabpage or window you choosed.
+Press `<C-x>` to close current selected tabpage or window.
 
 ![windows.png](https://media.githubusercontent.com/media/adoyle-h/_imgs/master/github/ad-telescope-extensions.nvim/windows.png)
 
