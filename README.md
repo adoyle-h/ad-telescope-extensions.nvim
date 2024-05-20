@@ -74,6 +74,12 @@ require('ad-telescope-extensions').setup {
 
 See [./lua/ad-telescope-extensions/exts/](./lua/ad-telescope-extensions/exts)
 
+### cmdline
+
+`:Telescope commands` only list commands that exclude builtin ex-commands.
+
+The extension can list all commands and builtin ex-commands.
+
 ### changes
 
 Print the change list.  A ">" character indicates the current position.

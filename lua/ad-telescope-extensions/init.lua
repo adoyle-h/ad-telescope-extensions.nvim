@@ -10,7 +10,7 @@ function M.setup(opts)
 		enable = {
 			-- LuaFormatter off
 			'changes', 'colors', 'env', 'floaterm', 'message', 'packpath', 'query', 'rtp',
-			'scriptnames', 'windows', 'time', 'zk',
+			'scriptnames', 'windows', 'time', 'zk', 'cmdline',
 			'lsp_document_symbols_filter', 'lsp_workspace_symbols_filter', 'lsp_dynamic_workspace_symbols_filter',
 			-- LuaFormatter on
 		}
